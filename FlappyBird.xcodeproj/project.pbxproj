@@ -14,6 +14,7 @@
 		A73D479E24584AF50063B48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73D479D24584AF50063B48C /* Assets.xcassets */; };
 		A73D47A124584AF50063B48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D479F24584AF50063B48C /* LaunchScreen.storyboard */; };
 		A73D47A9245855BB0063B48C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D47A8245855BB0063B48C /* GameScene.swift */; };
+		A7F12D602478B34400CB259D /* itemGet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7F12D5F2478B34400CB259D /* itemGet.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A73D47A024584AF50063B48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73D47A224584AF50063B48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73D47A8245855BB0063B48C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A7F12D5F2478B34400CB259D /* itemGet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itemGet.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		A73D479324584AF40063B48C /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				A7F12D5F2478B34400CB259D /* itemGet.mp3 */,
 				A73D479424584AF40063B48C /* AppDelegate.swift */,
 				A73D479624584AF40063B48C /* SceneDelegate.swift */,
 				A73D479824584AF40063B48C /* ViewController.swift */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F12D602478B34400CB259D /* itemGet.mp3 in Resources */,
 				A73D47A124584AF50063B48C /* LaunchScreen.storyboard in Resources */,
 				A73D479E24584AF50063B48C /* Assets.xcassets in Resources */,
 				A73D479C24584AF40063B48C /* Main.storyboard in Resources */,
