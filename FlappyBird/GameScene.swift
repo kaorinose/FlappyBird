@@ -431,7 +431,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate, AVAudioPlayerDelegate {
                 audioPlayer.play()
             }
             
-            // ===================== うまくできてない =====================
             // アイテムを消す
             if (contact.bodyA.categoryBitMask & itemCategory) == itemCategory {
                 contact.bodyA.node?.removeFromParent()
@@ -439,13 +438,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate, AVAudioPlayerDelegate {
             if (contact.bodyB.categoryBitMask & itemCategory) == itemCategory {
                 contact.bodyB.node?.removeFromParent()
             }
-            // アイテム関連のノードを乗せるノードを作成
-            //let item = SKNode()
-            // 自身を取り除くアクションを作成
-            //let removeItem = SKAction.removeFromParent()
-        
-            //item.run(removeItem)
-            // ===================== うまくできてない =====================
             
             // アイテムスコア更新する
             itemscore += 1
